@@ -442,7 +442,7 @@ $utilities: map-merge(
     "font-family": (
       property: font-family,
       class: font,
-      values: (satisfy: var(--#{$variable-prefix}font-satisfy))
+      values: (monospace: var(--#{$variable-prefix}font-monospace))
     ),
     "font-size": (
       rfs: true,

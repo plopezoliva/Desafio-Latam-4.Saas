@@ -51,7 +51,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-satisfy: "Satisfy", cursive;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-satisfy);
@@ -247,7 +247,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: var(--bs-font-satisfy);
+  font-family: var(--bs-font-monospace);
   font-size: 1em;
   direction: ltr /* rtl:ignore */;
   unicode-bidi: bidi-override;
@@ -7536,8 +7536,8 @@ textarea.form-control-lg {
   padding-left: 3rem !important;
 }
 
-.font-satisfy {
-  font-family: var(--bs-font-satisfy) !important;
+.font-monospace {
+  font-family: var(--bs-font-monospace) !important;
 }
 
 .fs-1 {
