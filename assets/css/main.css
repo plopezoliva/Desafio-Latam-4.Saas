@@ -4467,9 +4467,9 @@ textarea.form-control-lg {
 }
 
 .card-desafio, .card {
-  background-color: black;
+  background-color: #000;
   text-align: center;
-  color: white;
+  color: #fff;
 }
 
 .card {
